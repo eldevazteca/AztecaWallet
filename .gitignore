@@ -1,15 +1,29 @@
+# Gradle files
+.gradle/
+build/
+
+# Android Studio / IntelliJ files
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.idea/
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
 local.properties
+
+# Log files
+*.log
+
+# macOS
+.DS_Store
+
+# Built variants
+/captures
+
+# Native build
+.externalNativeBuild
+.cxx/
+
+# Google Services
+google-services.json
+
+# Secrets
+secrets.properties
