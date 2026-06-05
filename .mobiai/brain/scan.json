@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "project_name": "aztecawallet",
+  "project_type": "android",
+  "platforms": [
+    "android"
+  ],
+  "build_systems": [
+    "gradle"
+  ],
+  "ui": [
+    "compose"
+  ],
+  "di": [],
+  "network": [],
+  "persistence": [
+    "room"
+  ],
+  "serialization": [],
+  "testing": [
+    "espresso"
+  ],
+  "integrations": [],
+  "ci_cd": [],
+  "detected_files": {
+    "android_manifest": "app/src/main/AndroidManifest.xml",
+    "settings_gradle": "settings.gradle.kts"
+  },
+  "warnings": [],
+  "created_at": "2026-06-05T08:58:37Z",
+  "updated_at": "2026-06-05T08:58:37Z"
+}
