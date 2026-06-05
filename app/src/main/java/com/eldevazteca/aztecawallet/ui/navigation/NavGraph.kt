@@ -64,7 +64,7 @@ sealed class Screen(val route: String, val title: String, val icon: ImageVector)
     data object Categories : Screen("categories", "Categorías", Icons.Default.Category)
     data object Accounts : Screen("accounts", "Cuentas", Icons.Default.AccountBalance)
     data object Reports : Screen("reports", "Reportes", Icons.Default.BarChart)
-    data object Settings : Screen("settings", "Config", Icons.Default.Settings)
+    data object Settings : Screen("settings", "Ajustes", Icons.Default.Settings)
 }
 
 val bottomNavItems = listOf(
